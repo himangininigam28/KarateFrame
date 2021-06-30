@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.api.automation.ParallelEx" time="41.257" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework\target\test-classes;C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework\target\classes;C:\Users\Aadiya Lijo\.m2\repository\com\intuit\karate\karate-junit5\1.0.1\karate-junit5-1.0.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\intuit\karate\karate-core\1.0.1\karate-core-1.0.1.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\Aadiya Lijo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Aadiya Lijo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Aadiya Lijo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Aadiya Lijo\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Aadiya Lijo\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Aadiya Lijo\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Aadiya Lijo\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Aadiya Lijo\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Aadiya Lijo\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\Aadiya Lijo\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\Aadiya Lijo\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\net\masterthought\cucumber-reporting\5.5.3\cucumber-reporting-5.5.3.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Aadiya Lijo\.m2\repository\joda-time\joda-time\2.10.9\joda-time-2.10.9.jar;C:\Users\Aadiya Lijo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aadiya Lijo\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Aadiya Lijo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\AADIYA~1\AppData\Local\Temp\surefire695205023396671487\surefirebooter46506828903907136.jar C:\Users\Aadiya Lijo\AppData\Local\Temp\surefire695205023396671487 2021-06-30T12-04-09_932-jvmRun1 surefire7491471973370243118tmp surefire_06268356918677617115tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework\target\test-classes;C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework\target\classes;C:\Users\Aadiya Lijo\.m2\repository\com\intuit\karate\karate-junit5\1.0.1\karate-junit5-1.0.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\intuit\karate\karate-core\1.0.1\karate-core-1.0.1.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\Aadiya Lijo\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\Aadiya Lijo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Aadiya Lijo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Aadiya Lijo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Aadiya Lijo\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Aadiya Lijo\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Aadiya Lijo\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Aadiya Lijo\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Aadiya Lijo\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Aadiya Lijo\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\Aadiya Lijo\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\Aadiya Lijo\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Aadiya Lijo\.m2\repository\net\masterthought\cucumber-reporting\5.5.3\cucumber-reporting-5.5.3.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Aadiya Lijo\.m2\repository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Aadiya Lijo\.m2\repository\joda-time\joda-time\2.10.9\joda-time-2.10.9.jar;C:\Users\Aadiya Lijo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aadiya Lijo\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Aadiya Lijo\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aadiya Lijo\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\Aadiya Lijo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Aadiya Lijo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Aadiya Lijo\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Aadiya Lijo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="tags" value="~@Lodu"/>
+    <property name="basedir" value="C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\AADIYA~1\AppData\Local\Temp\surefire695205023396671487\surefirebooter46506828903907136.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="Aadiya Lijo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Aadiya Lijo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AADIYA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\gradle-7.0.2-all\gradle-7.0.2;C:\gradle-7.0.2-all\gradle-7.0.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Aadiya Lijo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2020.3.5\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="location" value="com/api/automation"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="ParallelRunner" classname="com.api.automation.ParallelEx" time="41.253">
+    <failure message="expected: &lt;0&gt; but was: &lt;6&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <6>
+	at com.api.automation.ParallelEx.ParallelRunner(ParallelEx.java:30)
+]]></failure>
+    <system-out><![CDATA[[classpath:com/api/automation]
+[~@Lodu]
+12:04:11.769 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:04:11.779 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1625034851777
+12:04:11.801 [main] DEBUG com.intuit.karate.Suite - waiting for 14 features to complete
+12:04:13.164 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.238 [pool-2-thread-1] ERROR com.intuit.karate - classpath:com/api/automation/PostValue.feature:5
+* def testData = read('TestData.csv')
+>>>> js failed:
+01: read('TestData.csv')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework\target\test-classes\com\api\automation\TestData.csv (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:68)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/PostValue.feature:5
+12:04:13.272 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.297 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.312 [pool-1-thread-2] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:13.318 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.327 [pool-1-thread-3] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:13.332 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.335 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.340 [pool-1-thread-4] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:13.344 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:13.346 [pool-1-thread-1] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:13.353 [pool-1-thread-5] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:13.495 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:14.145 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+1 > Accept: application/json
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.145 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+1 > Accept: application/json
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.145 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+1 > Accept: application/json
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.145 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://api.openweathermap.org/data/2.5/weather?q=London&appid=bc850d93446a7acfbfaf1961adda6c75
+1 > Accept: application/xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.145 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+1 > Accept: application/json
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.506 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 355
+1 < 200
+1 < Server: openresty
+1 < Date: Wed, 30 Jun 2021 06:34:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 477
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"visibility":10000,"timezone":3600,"main":{"temp":286.61,"temp_min":285.2,"humidity":87,"pressure":1017,"feels_like":286.28,"temp_max":287.59},"clouds":{"all":90},"sys":{"country":"GB","sunrise":1625024815,"sunset":1625084470,"id":2019646,"type":2},"dt":1625034580,"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"name":"London","cod":200,"id":2643743,"base":"stations","wind":{"deg":300,"speed":3.09}}
+12:04:14.512 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "visibility": 10000,
+  "timezone": 3600,
+  "main": {
+    "temp": 286.61,
+    "temp_min": 285.2,
+    "humidity": 87,
+    "pressure": 1017,
+    "feels_like": 286.28,
+    "temp_max": 287.59
+  },
+  "clouds": {
+    "all": 90
+  },
+  "sys": {
+    "country": "GB",
+    "sunrise": 1625024815,
+    "sunset": 1625084470,
+    "id": 2019646,
+    "type": 2
+  },
+  "dt": 1625034580,
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "icon": "04d",
+      "description": "overcast clouds",
+      "main": "Clouds",
+      "id": 804
+    }
+  ],
+  "name": "London",
+  "cod": 200,
+  "id": 2643743,
+  "base": "stations",
+  "wind": {
+    "deg": 300,
+    "speed": 3.09
+  }
+}
+ 
+12:04:14.573 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+2 > Accept: application/json
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.573 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+2 > Accept: application/json
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:14.597 [pool-1-thread-1] ERROR com.intuit.karate - classpath:com/api/automation/getrequest/getFromWeatherAPI.feature:13
+And match response.weather[0].description == 'light rain'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'overcast clouds'
+  'light rain'
+
+classpath:com/api/automation/getrequest/getFromWeatherAPI.feature:13
+12:04:14.608 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:14.610 [pool-1-thread-1] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:14.613 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://api.openweathermap.org/data/2.5/weather?q=London&appid=bc850d93446a7acfbfaf1961adda6c75
+1 > Accept: application/xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+---------------------------------------------------------
+feature: classpath:com/api/automation/PostValue.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.0208
+---------------------------------------------------------
+
+12:04:14.644 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 14 (13 remaining) classpath:com/api/automation/PostValue.feature
+12:04:14.826 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 212
+1 < 200
+1 < Server: openresty
+1 < Date: Wed, 30 Jun 2021 06:34:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 477
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"visibility":10000,"timezone":3600,"main":{"temp":286.61,"temp_min":285.2,"humidity":87,"pressure":1017,"feels_like":286.28,"temp_max":287.59},"clouds":{"all":90},"sys":{"country":"GB","sunrise":1625024815,"sunset":1625084470,"id":2019646,"type":2},"dt":1625034580,"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"name":"London","cod":200,"id":2643743,"base":"stations","wind":{"deg":300,"speed":3.09}}
+12:04:14.829 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "visibility": 10000,
+  "timezone": 3600,
+  "main": {
+    "temp": 286.61,
+    "temp_min": 285.2,
+    "humidity": 87,
+    "pressure": 1017,
+    "feels_like": 286.28,
+    "temp_max": 287.59
+  },
+  "clouds": {
+    "all": 90
+  },
+  "sys": {
+    "country": "GB",
+    "sunrise": 1625024815,
+    "sunset": 1625084470,
+    "id": 2019646,
+    "type": 2
+  },
+  "dt": 1625034580,
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "icon": "04d",
+      "description": "overcast clouds",
+      "main": "Clouds",
+      "id": 804
+    }
+  ],
+  "name": "London",
+  "cod": 200,
+  "id": 2643743,
+  "base": "stations",
+  "wind": {
+    "deg": 300,
+    "speed": 3.09
+  }
+}
+ 
+12:04:14.832 [pool-1-thread-1] ERROR com.intuit.karate - classpath:com/api/automation/getrequest/getFuzzyMatcher.feature:13
+And match response.weather[0].description == 'light rain'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'overcast clouds'
+  'light rain'
+
+classpath:com/api/automation/getrequest/getFuzzyMatcher.feature:13
+12:04:14.839 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:14.843 [pool-1-thread-1] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:14.946 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > key: qaclick123
+1 > Content-Length: 247
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":18,"location":{"lng":33.427362,"lat":-38.383455},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+
+12:04:16.543 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+2 > Accept: application/json
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:17.940 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+2 > Accept: application/json
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:18.112 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3165
+1 < 200
+1 < Date: Wed, 30 Jun 2021 06:34:18 GMT
+1 < Server: Apache/2.4.18 (Ubuntu)
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Max-Age: 3600
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Content-Length: 194
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"reference":"c35a30127958a3ea0efee4ec63ec3f26c35a30127958a3ea0efee4ec63ec3f26","scope":"APP","id":"c35a30127958a3ea0efee4ec63ec3f26","place_id":"38a0978668b4a1d6143346e5fe7335ab","status":"OK"}
+12:04:18.113 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "reference": "c35a30127958a3ea0efee4ec63ec3f26c35a30127958a3ea0efee4ec63ec3f26",
+  "scope": "APP",
+  "id": "c35a30127958a3ea0efee4ec63ec3f26",
+  "place_id": "38a0978668b4a1d6143346e5fe7335ab",
+  "status": "OK"
+}
+ 
+12:04:18.115 [pool-1-thread-1] INFO  com.intuit.karate - [print] 38a0978668b4a1d6143346e5fe7335ab 
+12:04:18.142 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=38a0978668b4a1d6143346e5fe7335ab&key=qaclick123
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:20.982 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 6408
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:18 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 257
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shop","website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+12:04:20.983 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 6410
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:18 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 257
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shop","website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+12:04:20.985 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "types": "shoe park,shop",
+  "website": "http://google.com",
+  "address": "29, side layout, cohen 09",
+  "name": "Frontline house",
+  "accuracy": "50",
+  "location": {
+    "latitude": "-38.383494",
+    "longitude": "33.427362"
+  },
+  "phone_number": "(+91) 983 893 3937",
+  "language": "French-IN"
+}
+ 
+12:04:20.986 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "types": "shoe park,shop",
+  "website": "http://google.com",
+  "address": "29, side layout, cohen 09",
+  "name": "Frontline house",
+  "accuracy": "50",
+  "location": {
+    "latitude": "-38.383494",
+    "longitude": "33.427362"
+  },
+  "phone_number": "(+91) 983 893 3937",
+  "language": "French-IN"
+}
+ 
+12:04:20.992 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:20.992 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:20.995 [pool-1-thread-2] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:20.996 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/postRequests/get2.feature:9
+* def rtnValues= call read("../PostValue.feature") { _url : "http://rahulshettyacademy.com", _path : "/maps/api/place/add/json" ,_name : "Sample Name"}
+no step-definition method match found for: def rtnValues= call read("../PostValue.feature") { _url : "http://rahulshettyacademy.com", _path : "/maps/api/place/add/json" ,_name : "Sample Name"}
+classpath:com/api/automation/postRequests/get2.feature:9
+12:04:20.998 [pool-1-thread-5] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:21.001 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > key: qaclick123
+1 > Content-Length: 247
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":50,"location":{"lng":33.427362,"lat":-38.383455},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+
+12:04:21.001 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:21.022 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+1 > key: qaclick123
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 222
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"#(address)","name":"#(Name)","accuracy":50,"location":{"lng":"#(longitude)","lat":"#(latitude)"},"phone_number":"#(Phone)","language":"French-IN"}
+
+12:04:21.135 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=38a0978668b4a1d6143346e5fe7335ab&key=qaclick123
+3 > Host: rahulshettyacademy.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+3 > Accept-Encoding: gzip,deflate
+
+
+12:04:23.366 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 6822
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:21 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 257
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shop","website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+12:04:23.375 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:23.388 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+2 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+2 > key: qaclick123
+2 > Content-Type: application/json; charset=UTF-8
+2 > Accept: application/json
+2 > Content-Length: 222
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"#(address)","name":"#(Name)","accuracy":50,"location":{"lng":"#(longitude)","lat":"#(latitude)"},"phone_number":"#(Phone)","language":"French-IN"}
+
+12:04:25.112 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1723
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:26 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 194
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"reference":"27dcacebadd65d5848b9f8282e391d1b27dcacebadd65d5848b9f8282e391d1b","scope":"APP","id":"27dcacebadd65d5848b9f8282e391d1b","place_id":"c873c8f0513083a594d1a1c217cd0533","status":"OK"}
+12:04:25.115 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "reference": "27dcacebadd65d5848b9f8282e391d1b27dcacebadd65d5848b9f8282e391d1b",
+  "scope": "APP",
+  "id": "27dcacebadd65d5848b9f8282e391d1b",
+  "place_id": "c873c8f0513083a594d1a1c217cd0533",
+  "status": "OK"
+}
+ 
+12:04:25.116 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    " latitude   ": "-54.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline  ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 09  ",
+    " status ": "200"
+  },
+  {
+    " latitude   ": "-43.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline2 ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 092 ",
+    " status ": "200"
+  },
+  {
+    " latitude   ": "-28.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline3 ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 092 ",
+    " status ": "200"
+  }
+]
+ 
+12:04:25.120 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:25.125 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+3 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+3 > key: qaclick123
+3 > Content-Type: application/json; charset=UTF-8
+3 > Accept: application/json
+3 > Content-Length: 222
+3 > Host: rahulshettyacademy.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+3 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"#(address)","name":"#(Name)","accuracy":50,"location":{"lng":"#(longitude)","lat":"#(latitude)"},"phone_number":"#(Phone)","language":"French-IN"}
+
+12:04:25.476 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 4475
+1 < 200
+1 < Date: Wed, 30 Jun 2021 06:34:26 GMT
+1 < Server: Apache/2.4.18 (Ubuntu)
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Max-Age: 3600
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Content-Length: 194
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"reference":"0a5b705f7b800e3139504449e519c0650a5b705f7b800e3139504449e519c065","scope":"APP","id":"0a5b705f7b800e3139504449e519c065","place_id":"3070edb8d0fd7c057c0209ef33323f87","status":"OK"}
+12:04:25.476 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 4454
+3 < 200
+3 < Date: Wed, 30 Jun 2021 06:34:26 GMT
+3 < Server: Apache/2.4.18 (Ubuntu)
+3 < Access-Control-Allow-Origin: *
+3 < Access-Control-Allow-Methods: POST
+3 < Access-Control-Max-Age: 3600
+3 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+3 < Content-Length: 194
+3 < Keep-Alive: timeout=5, max=100
+3 < Connection: Keep-Alive
+3 < Content-Type: application/json;charset=UTF-8
+{"reference":"391263785ff668109f3d11aa535fa45c391263785ff668109f3d11aa535fa45c","scope":"APP","id":"391263785ff668109f3d11aa535fa45c","place_id":"3ff12afcb7721c7f02bd36c4af844003","status":"OK"}
+12:04:25.478 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "reference": "0a5b705f7b800e3139504449e519c0650a5b705f7b800e3139504449e519c065",
+  "scope": "APP",
+  "id": "0a5b705f7b800e3139504449e519c065",
+  "place_id": "3070edb8d0fd7c057c0209ef33323f87",
+  "status": "OK"
+}
+ 
+12:04:25.478 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "reference": "391263785ff668109f3d11aa535fa45c391263785ff668109f3d11aa535fa45c",
+  "scope": "APP",
+  "id": "391263785ff668109f3d11aa535fa45c",
+  "place_id": "3ff12afcb7721c7f02bd36c4af844003",
+  "status": "OK"
+}
+ 
+12:04:25.479 [pool-1-thread-2] INFO  com.intuit.karate - [print] [
+  {
+    " latitude   ": "-54.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline  ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 09  ",
+    " status ": "200"
+  },
+  {
+    " latitude   ": "-43.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline2 ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 092 ",
+    " status ": "200"
+  },
+  {
+    " latitude   ": "-28.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline3 ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 092 ",
+    " status ": "200"
+  }
+]
+ 
+12:04:25.480 [pool-1-thread-5] INFO  com.intuit.karate - [print] 3070edb8d0fd7c057c0209ef33323f87 
+12:04:25.483 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:25.484 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:25.487 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 43
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Heena","salary":"32133","age":"43"}
+
+12:04:25.488 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+2 > POST http://dummy.restapiexample.com/api/v1/create
+2 > Content-Type: application/json; charset=UTF-8
+2 > Accept: application/json
+2 > Content-Length: 44
+2 > Host: dummy.restapiexample.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+{"name":"Heena","salary":"32133","age":"43"}
+
+12:04:25.865 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 7925
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:25 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 257
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shop","website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+12:04:25.871 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:25.875 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://rahulshettyacademy.com/maps/api/place/update/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 98
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+{"address":"70 Summer walk, USA","place_id":"978988c919b0fd30324afc55bb214ffe","key":"qaclick123"}
+
+---------------------------------------------------------
+feature: classpath:com/api/automation/getrequest/get.feature
+scenarios:  3 | passed:  3 | failed:  0 | time: 30.2540
+---------------------------------------------------------
+
+12:04:26.034 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 14 (12 remaining) classpath:com/api/automation/getrequest/get.feature
+---------------------------------------------------------
+feature: classpath:com/api/automation/getrequest/get2.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 7.6370
+---------------------------------------------------------
+
+12:04:26.113 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 14 (11 remaining) classpath:com/api/automation/getrequest/get2.feature
+---------------------------------------------------------
+feature: classpath:com/api/automation/getrequest/getFromWeatherAPI.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 1.2571
+---------------------------------------------------------
+
+12:04:26.185 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 14 (10 remaining) classpath:com/api/automation/getrequest/getFromWeatherAPI.feature
+---------------------------------------------------------
+feature: classpath:com/api/automation/getrequest/getFuzzyMatcher.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.2228
+---------------------------------------------------------
+
+12:04:26.251 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 14 (9 remaining) classpath:com/api/automation/getrequest/getFuzzyMatcher.feature
+12:04:27.193 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 2067
+3 < 200
+3 < Date: Wed, 30 Jun 2021 06:34:28 GMT
+3 < Server: Apache/2.4.18 (Ubuntu)
+3 < Access-Control-Allow-Origin: *
+3 < Access-Control-Allow-Methods: POST
+3 < Access-Control-Max-Age: 3600
+3 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+3 < Content-Length: 194
+3 < Keep-Alive: timeout=5, max=100
+3 < Connection: Keep-Alive
+3 < Content-Type: application/json;charset=UTF-8
+{"reference":"908aa2121d3d8c7b9782938761513b4b908aa2121d3d8c7b9782938761513b4b","scope":"APP","id":"908aa2121d3d8c7b9782938761513b4b","place_id":"2d720b81727b5f327d7b946fa4fa2553","status":"OK"}
+12:04:27.194 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "reference": "908aa2121d3d8c7b9782938761513b4b908aa2121d3d8c7b9782938761513b4b",
+  "scope": "APP",
+  "id": "908aa2121d3d8c7b9782938761513b4b",
+  "place_id": "2d720b81727b5f327d7b946fa4fa2553",
+  "status": "OK"
+}
+ 
+12:04:27.195 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    " latitude   ": "-54.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline  ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 09  ",
+    " status ": "200"
+  },
+  {
+    " latitude   ": "-43.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline2 ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 092 ",
+    " status ": "200"
+  },
+  {
+    " latitude   ": "-28.383455",
+    " longitude ": "33.427362",
+    " acc ": "40",
+    " Name       ": " Frontline3 ",
+    " Phone              ": " (+91) 983 893 3937 ",
+    " address                    ": " 29, side layout, cohen 092 ",
+    " status ": "200"
+  }
+]
+ 
+12:04:27.197 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:27.198 [pool-1-thread-4] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:27.201 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+1 > Accept: application/json
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:27.313 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 6178
+3 < 200
+3 < Date: Wed, 30 Jun 2021 06:34:26 GMT
+3 < Server: Apache/2.4.18 (Ubuntu)
+3 < Access-Control-Allow-Origin: *
+3 < Access-Control-Allow-Methods: POST
+3 < Access-Control-Max-Age: 3600
+3 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+3 < Content-Length: 260
+3 < Keep-Alive: timeout=5, max=100
+3 < Connection: Keep-Alive
+3 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shopERS","website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"18","location":{"latitude":"-38.383455","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+12:04:27.315 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "types": "shoe park,shopERS",
+  "website": "http://google.com",
+  "address": "29, side layout, cohen 09",
+  "name": "Frontline house",
+  "accuracy": "18",
+  "location": {
+    "latitude": "-38.383455",
+    "longitude": "33.427362"
+  },
+  "phone_number": "(+91) 983 893 3937",
+  "language": "French-IN"
+}
+ 
+12:04:27.318 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:04:27.320 [pool-1-thread-1] INFO  com.intuit.karate - [print] +++++++++++++ This is background++++++++++++++ 
+12:04:27.342 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+1 > key: qaclick123
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 212
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"dasdasda","name":"dasd","accuracy":50,"location":{"lng":"35.55555","lat":"35.55555"},"phone_number":"7894561237","language":"French-IN"}
+
+---------------------------------------------------------
+feature: classpath:com/api/automation/jsScript/JSExecuterschemaValidation.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 12.4729
+---------------------------------------------------------
+
+12:04:27.371 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 14 (8 remaining) classpath:com/api/automation/jsScript/JSExecuterschemaValidation.feature
+---------------------------------------------------------
+feature: classpath:com/api/automation/postRequests/get2.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.0023
+---------------------------------------------------------
+
+12:04:27.420 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 14 (7 remaining) classpath:com/api/automation/postRequests/get2.feature
+---------------------------------------------------------
+feature: classpath:com/api/automation/postRequests/postRequest.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 4.4877
+---------------------------------------------------------
+
+12:04:27.518 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 8 of 14 (6 remaining) classpath:com/api/automation/postRequests/postRequest.feature
+---------------------------------------------------------
+feature: classpath:com/api/automation/postRequests/Data/DataOutline.feature
+scenarios:  3 | passed:  3 | failed:  0 | time: 8.8824
+---------------------------------------------------------
+
+12:04:27.589 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 9 of 14 (5 remaining) classpath:com/api/automation/postRequests/Data/DataOutline.feature
+12:04:27.919 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 2431
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:29 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Cache-Control: no-cache, private, max-age=31536000
+2 < Display: staticcontent_sol, staticcontent_sol
+2 < Expires: Thu, 30 Jun 2022 06:34:28 GMT
+2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 < Referrer-Policy: 
+2 < Response: 200
+2 < Vary: Accept-Encoding
+2 < Vary: Accept-Encoding,Origin
+2 < X-Ezoic-Cdn: Miss
+2 < X-Middleton-Display: staticcontent_sol, staticcontent_sol
+2 < X-Middleton-Response: 200
+2 < X-Ratelimit-Limit: 60
+2 < X-Ratelimit-Remaining: 58
+2 < X-Sol: pub_site
+2 < CF-Cache-Status: DYNAMIC
+2 < cf-request-id: 0afd395e7300004b04b1afb000000001
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=xFygp9viOac7WYBkJLe9Cv5APLuakZSdsqnypyXNmh7U8pC7TelkWeIq5EaTXUDuxuf8H0XNFKUKcs%2Fx51CTPCer71%2BGQsWuq%2BxwOoL1PgVJieRF%2FtIWjjbDSz9CBSIfAaL9LfJG"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 66755e771b0a4b04-HYD
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"data":{"name":"Heena","id":9015,"salary":"32133","age":"43"},"message":"Successfully! Record has been added.","status":"success"}
+12:04:27.920 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "data": {
+    "name": "Heena",
+    "id": 9015,
+    "salary": "32133",
+    "age": "43"
+  },
+  "message": "Successfully! Record has been added.",
+  "status": "success"
+}
+ 
+12:04:28.040 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 2553
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:29 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Cache-Control: no-cache, private, max-age=31536000
+2 < Display: staticcontent_sol, staticcontent_sol
+2 < Expires: Thu, 30 Jun 2022 06:34:28 GMT
+2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 < Referrer-Policy: 
+2 < Response: 200
+2 < Vary: Accept-Encoding
+2 < Vary: Accept-Encoding,Origin
+2 < X-Ezoic-Cdn: Miss
+2 < X-Middleton-Display: staticcontent_sol, staticcontent_sol
+2 < X-Middleton-Response: 200
+2 < X-Ratelimit-Limit: 60
+2 < X-Ratelimit-Remaining: 58
+2 < X-Sol: pub_site
+2 < CF-Cache-Status: DYNAMIC
+2 < cf-request-id: 0afd395e7200004b10f8975000000001
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=oG1XOVgHvcSDRiY7eXHrb54GCffEvEAaAcgnAynVxIJzAyBpQin3kI%2F8W1RN8Pa0S1HuCWq%2F9JTbsmkahlFSCOIT6eja6fOscWxcPOSbXWCayNPfQHz2hb3EnqNKVu9BAMDF0wQ5"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 66755e771b5f4b10-HYD
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"data":{"name":"Lijo","id":4452,"salary":"32133","age":"40"},"message":"Successfully! Record has been added.","status":"success"}
+12:04:28.041 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "data": {
+    "name": "Lijo",
+    "id": 4452,
+    "salary": "32133",
+    "age": "40"
+  },
+  "message": "Successfully! Record has been added.",
+  "status": "success"
+}
+ 
+---------------------------------------------------------
+feature: classpath:com/api/automation/postRequests/Data/DataOutline2.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 5.0030
+---------------------------------------------------------
+
+12:04:28.082 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 10 of 14 (4 remaining) classpath:com/api/automation/postRequests/Data/DataOutline2.feature
+12:04:28.251 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=1492b52afbf7fd476ff2f3e6f52f5dc6&key=qaclick123
+2 > Accept: application/json
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:29.787 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2445
+1 < 200
+1 < Date: Wed, 30 Jun 2021 06:34:30 GMT
+1 < Server: Apache/2.4.18 (Ubuntu)
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Max-Age: 3600
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Content-Length: 194
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"reference":"fc8ee2ec69c1d356e8eae0cbf8dafb5efc8ee2ec69c1d356e8eae0cbf8dafb5e","scope":"APP","id":"fc8ee2ec69c1d356e8eae0cbf8dafb5e","place_id":"26410539f5a7d46ccdc232674b218f41","status":"OK"}
+12:04:29.789 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "reference": "fc8ee2ec69c1d356e8eae0cbf8dafb5efc8ee2ec69c1d356e8eae0cbf8dafb5e",
+  "scope": "APP",
+  "id": "fc8ee2ec69c1d356e8eae0cbf8dafb5e",
+  "place_id": "26410539f5a7d46ccdc232674b218f41",
+  "status": "OK"
+}
+ 
+12:04:29.793 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+2 > key: qaclick123
+2 > Content-Type: application/json; charset=UTF-8
+2 > Accept: application/json
+2 > Content-Length: 212
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"dasdasda","name":"dasd","accuracy":50,"location":{"lng":"35.55555","lat":"35.55555"},"phone_number":"7894561237","language":"French-IN"}
+
+12:04:30.266 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 4390
+1 < 404
+1 < Date: Wed, 30 Jun 2021 06:34:29 GMT
+1 < Server: Apache/2.4.18 (Ubuntu)
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Max-Age: 3600
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Content-Length: 77
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"msg":"Update address operation failed, looks like the data doesn't exists"}
+12:04:30.266 [pool-1-thread-3] ERROR com.intuit.karate - classpath:com/api/automation/Put/DataOutline.feature:12
+And status 200
+status code was: 404, expected: 200, response time in milliseconds: 4390, url: https://rahulshettyacademy.com/maps/api/place/update/json, response: 
+{"msg":"Update address operation failed, looks like the data doesn't exists"}
+classpath:com/api/automation/Put/DataOutline.feature:12
+---------------------------------------------------------
+feature: classpath:com/api/automation/Put/DataOutline.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 4.3947
+---------------------------------------------------------
+
+12:04:30.288 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 11 of 14 (3 remaining) classpath:com/api/automation/Put/DataOutline.feature
+12:04:32.399 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 4148
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:31 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 257
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shop","website":"http:\/\/google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+12:04:32.401 [pool-1-thread-4] INFO  com.intuit.karate - [print] sub ---  {
+  "latitude": "#string",
+  "longitude": "#string"
+}
+ 
+12:04:32.402 [pool-1-thread-4] INFO  com.intuit.karate - [print] main ---  {
+  "types": "#string",
+  "website": "#string",
+  "address": "#string",
+  "name": "#string",
+  "accuracy": "#string",
+  "location": "##(subschema)",
+  "phone_number": "#string",
+  "language": "#string"
+}
+ 
+12:04:32.403 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "types": "shoe park,shop",
+  "website": "http://google.com",
+  "address": "29, side layout, cohen 09",
+  "name": "Frontline house",
+  "accuracy": "50",
+  "location": {
+    "latitude": "-38.383494",
+    "longitude": "33.427362"
+  },
+  "phone_number": "(+91) 983 893 3937",
+  "language": "French-IN"
+}
+ 
+---------------------------------------------------------
+feature: classpath:com/api/automation/schemaValidation/schemaValidation.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 5.2082
+---------------------------------------------------------
+
+12:04:32.439 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 13 of 14 (1 remaining) classpath:com/api/automation/schemaValidation/schemaValidation.feature
+12:04:32.629 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2836
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:33 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 194
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"reference":"7ff7a7409fff7c3e8fabd722491213927ff7a7409fff7c3e8fabd72249121392","scope":"APP","id":"7ff7a7409fff7c3e8fabd72249121392","place_id":"75bb36bcfd271b0394597f9f31304c01","status":"OK"}
+12:04:32.630 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "reference": "7ff7a7409fff7c3e8fabd722491213927ff7a7409fff7c3e8fabd72249121392",
+  "scope": "APP",
+  "id": "7ff7a7409fff7c3e8fabd72249121392",
+  "place_id": "75bb36bcfd271b0394597f9f31304c01",
+  "status": "OK"
+}
+ 
+12:04:32.634 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > POST https://rahulshettyacademy.com/maps/api/place/add/json
+3 > key: qaclick123
+3 > Content-Type: application/json; charset=UTF-8
+3 > Accept: application/json
+3 > Content-Length: 212
+3 > Host: rahulshettyacademy.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+3 > Accept-Encoding: gzip,deflate
+{"types":["shoe park","shopERS"],"website":"http:\/\/google.com","address":"dasdasda","name":"dasd","accuracy":50,"location":{"lng":"35.55555","lat":"35.55555"},"phone_number":"7894561237","language":"French-IN"}
+
+12:04:37.248 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 4614
+3 < 200
+3 < Date: Wed, 30 Jun 2021 06:34:36 GMT
+3 < Server: Apache/2.4.18 (Ubuntu)
+3 < Access-Control-Allow-Origin: *
+3 < Access-Control-Allow-Methods: POST
+3 < Access-Control-Max-Age: 3600
+3 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+3 < Content-Length: 194
+3 < Keep-Alive: timeout=5, max=100
+3 < Connection: Keep-Alive
+3 < Content-Type: application/json;charset=UTF-8
+{"reference":"6e2a836263412c8fb06a4eda23a273ea6e2a836263412c8fb06a4eda23a273ea","scope":"APP","id":"6e2a836263412c8fb06a4eda23a273ea","place_id":"969c8854b31ce5b432e2728e4bbcb112","status":"OK"}
+12:04:37.249 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "reference": "6e2a836263412c8fb06a4eda23a273ea6e2a836263412c8fb06a4eda23a273ea",
+  "scope": "APP",
+  "id": "6e2a836263412c8fb06a4eda23a273ea",
+  "place_id": "969c8854b31ce5b432e2728e4bbcb112",
+  "status": "OK"
+}
+ 
+12:04:37.250 [pool-1-thread-1] INFO  com.intuit.karate - [print] Return values ->  969c8854b31ce5b432e2728e4bbcb112 
+12:04:37.251 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=29f3d7cdb9773cd7d2afdebc6f6abb9b&key=qaclick123
+1 > Accept: application/json
+1 > Host: rahulshettyacademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:04:42.481 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET http://rahulshettyacademy.com/maps/api/place/get/json?place_id=29f3d7cdb9773cd7d2afdebc6f6abb9b&key=qaclick123
+2 > Accept: application/json
+2 > Host: rahulshettyacademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:04:51.983 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 9502
+2 < 200
+2 < Date: Wed, 30 Jun 2021 06:34:51 GMT
+2 < Server: Apache/2.4.18 (Ubuntu)
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: POST
+2 < Access-Control-Max-Age: 3600
+2 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2 < Content-Length: 221
+2 < Keep-Alive: timeout=5, max=100
+2 < Connection: Keep-Alive
+2 < Content-Type: application/json;charset=UTF-8
+{"types":"shoe park,shopERS","website":"http:\/\/google.com","address":"dasdasda","name":"dasd","accuracy":"50","location":{"latitude":"35.55555","longitude":"35.55555"},"phone_number":"7894561237","language":"French-IN"}
+12:04:51.984 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "types": "shoe park,shopERS",
+  "website": "http://google.com",
+  "address": "dasdasda",
+  "name": "dasd",
+  "accuracy": "50",
+  "location": {
+    "latitude": "35.55555",
+    "longitude": "35.55555"
+  },
+  "phone_number": "7894561237",
+  "language": "French-IN"
+}
+ 
+12:04:51.986 [pool-1-thread-1] ERROR com.intuit.karate - classpath:com/api/automation/variable/GetWithVariables.feature:18
+And match response == res1
+match failed: EQUALS
+  $ | not equal | match failed for name: 'types' (MAP:MAP)
+  {"types":"shoe park,shopERS","website":"http://google.com","address":"dasdasda","name":"dasd","accuracy":"50","location":{"latitude":"35.55555","longitude":"35.55555"},"phone_number":"7894561237","language":"French-IN"}
+  {"types":"shoe park,shop","website":"http://google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+
+    $.types | not equal (STRING:STRING)
+    'shoe park,shopERS'
+    'shoe park,shop'
+
+classpath:com/api/automation/variable/GetWithVariables.feature:18
+---------------------------------------------------------
+feature: classpath:com/api/automation/variable/GetWithVariables.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 24.6665
+---------------------------------------------------------
+
+12:04:52.090 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 14 of 14 (0 remaining) classpath:com/api/automation/variable/GetWithVariables.feature
+Karate version: 1.0.1
+======================================================
+elapsed:  40.97 | threads:    5 | thread time: 104.51 
+features:    13 | skipped:    1 | efficiency: 0.51
+scenarios:   18 | passed:    12 | failed: 6
+======================================================
+>>> failed features:
+>>>> js failed:
+01: read('TestData.csv')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Aadiya Lijo\OneDrive\Documents\KarateWorkspace\karateframework\target\test-classes\com\api\automation\TestData.csv (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:68)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/PostValue.feature:5
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'overcast clouds'
+  'light rain'
+
+classpath:com/api/automation/getrequest/getFuzzyMatcher.feature:13
+status code was: 404, expected: 200, response time in milliseconds: 4390, url: https://rahulshettyacademy.com/maps/api/place/update/json, response: 
+{"msg":"Update address operation failed, looks like the data doesn't exists"}
+classpath:com/api/automation/Put/DataOutline.feature:12
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'overcast clouds'
+  'light rain'
+
+classpath:com/api/automation/getrequest/getFromWeatherAPI.feature:13
+no step-definition method match found for: def rtnValues= call read("../PostValue.feature") { _url : "http://rahulshettyacademy.com", _path : "/maps/api/place/add/json" ,_name : "Sample Name"}
+classpath:com/api/automation/postRequests/get2.feature:9
+match failed: EQUALS
+  $ | not equal | match failed for name: 'types' (MAP:MAP)
+  {"types":"shoe park,shopERS","website":"http://google.com","address":"dasdasda","name":"dasd","accuracy":"50","location":{"latitude":"35.55555","longitude":"35.55555"},"phone_number":"7894561237","language":"French-IN"}
+  {"types":"shoe park,shop","website":"http://google.com","address":"29, side layout, cohen 09","name":"Frontline house","accuracy":"50","location":{"latitude":"-38.383494","longitude":"33.427362"},"phone_number":"(+91) 983 893 3937","language":"French-IN"}
+
+    $.types | not equal (STRING:STRING)
+    'shoe park,shopERS'
+    'shoe park,shop'
+
+classpath:com/api/automation/variable/GetWithVariables.feature:18
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.0.1
+file:///C:/Users/Aadiya%20Lijo/OneDrive/Documents/KarateWorkspace/karateframework/target/karate-reports/karate-summary.html
+===================================================================
+
+Total Features - 13
+test Features - 7
+Total Features - 12
+]]></system-out>
+  </testcase>
+</testsuite>

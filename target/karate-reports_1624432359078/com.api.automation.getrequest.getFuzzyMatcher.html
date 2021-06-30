@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>com.api.automation.getrequest.getFuzzyMatcher</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-06-22 03:03:56 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>To tests get method</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/api/automation/getrequest/getFuzzyMatcher.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To Test Get</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">To tests get method</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1675</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;http://api.openweathermap.org&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">15:03:54.763 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &quot;+++++++++++++ This is background++++++++++++++&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">15:03:54.802 [print] +++++++++++++ This is background++++++++++++++ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;/data/2.5/weather?q=London&amp;appid=bc850d93446a7acfbfaf1961adda6c75&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/xml&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1632</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">15:03:55.066 request:
+1 &gt; GET http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=bc850d93446a7acfbfaf1961adda6c75
+1 &gt; Accept: application/xml
+1 &gt; Host: api.openweathermap.org
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+15:03:56.439 response time in milliseconds: 1346
+1 &lt; 200
+1 &lt; Server: openresty
+1 &lt; Date: Tue, 22 Jun 2021 09:33:59 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 500
+1 &lt; Connection: keep-alive
+1 &lt; X-Cache-Key: /data/2.5/weather?q=london
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET, POST
+{&quot;rain&quot;:{&quot;1h&quot;:0.15},&quot;visibility&quot;:10000,&quot;timezone&quot;:3600,&quot;main&quot;:{&quot;temp&quot;:286.66,&quot;temp_min&quot;:285.1,&quot;humidity&quot;:76,&quot;pressure&quot;:1020,&quot;feels_like&quot;:286.05,&quot;temp_max&quot;:288.22},&quot;clouds&quot;:{&quot;all&quot;:40},&quot;sys&quot;:{&quot;country&quot;:&quot;GB&quot;,&quot;sunrise&quot;:1624333400,&quot;sunset&quot;:1624393297,&quot;id&quot;:2019646,&quot;type&quot;:2},&quot;dt&quot;:1624354198,&quot;coord&quot;:{&quot;lon&quot;:-0.1257,&quot;lat&quot;:51.5085},&quot;weather&quot;:[{&quot;icon&quot;:&quot;10d&quot;,&quot;description&quot;:&quot;light rain&quot;,&quot;main&quot;:&quot;Rain&quot;,&quot;id&quot;:500}],&quot;name&quot;:&quot;London&quot;,&quot;cod&quot;:200,&quot;id&quot;:2643743,&quot;base&quot;:&quot;stations&quot;,&quot;wind&quot;:{&quot;deg&quot;:67,&quot;speed&quot;:1.79,&quot;gust&quot;:4.47}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">15:03:56.445 [print] {
+  &quot;rain&quot;: {
+    &quot;1h&quot;: 0.15
+  },
+  &quot;visibility&quot;: 10000,
+  &quot;timezone&quot;: 3600,
+  &quot;main&quot;: {
+    &quot;temp&quot;: 286.66,
+    &quot;temp_min&quot;: 285.1,
+    &quot;humidity&quot;: 76,
+    &quot;pressure&quot;: 1020,
+    &quot;feels_like&quot;: 286.05,
+    &quot;temp_max&quot;: 288.22
+  },
+  &quot;clouds&quot;: {
+    &quot;all&quot;: 40
+  },
+  &quot;sys&quot;: {
+    &quot;country&quot;: &quot;GB&quot;,
+    &quot;sunrise&quot;: 1624333400,
+    &quot;sunset&quot;: 1624393297,
+    &quot;id&quot;: 2019646,
+    &quot;type&quot;: 2
+  },
+  &quot;dt&quot;: 1624354198,
+  &quot;coord&quot;: {
+    &quot;lon&quot;: -0.1257,
+    &quot;lat&quot;: 51.5085
+  },
+  &quot;weather&quot;: [
+    {
+      &quot;icon&quot;: &quot;10d&quot;,
+      &quot;description&quot;: &quot;light rain&quot;,
+      &quot;main&quot;: &quot;Rain&quot;,
+      &quot;id&quot;: 500
+    }
+  ],
+  &quot;name&quot;: &quot;London&quot;,
+  &quot;cod&quot;: 200,
+  &quot;id&quot;: 2643743,
+  &quot;base&quot;: &quot;stations&quot;,
+  &quot;wind&quot;: {
+    &quot;deg&quot;: 67,
+    &quot;speed&quot;: 1.79,
+    &quot;gust&quot;: 4.47
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.weather[0].description == &#39;light rain&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">17</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.rain == &#39;#present&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.visibility == &#39;#notnull&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.weather == &#39;#array&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ff = 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ffs = &#39;Lijo&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &quot;value of ff - &gt;&quot;, ff</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">15:03:56.467 [print] value of ff - &gt; 10 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref failed">20</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>print &quot;value of string -&gt;&quot;, ffs1</span>
+      </div>
+    </div>
+    <div class="time-cell failed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">15:03:56.477 classpath:com/api/automation/getrequest/getFuzzyMatcher.feature:20
+And print &quot;value of string -&gt;&quot;, ffs1
+&gt;&gt;&gt;&gt; js failed:
+01: karate.log(&#39;[print]&#39;,&quot;value of string -&gt;&quot;, ffs1)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;ffs1&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+classpath:com/api/automation/getrequest/getFuzzyMatcher.feature:20
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

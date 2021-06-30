@@ -1,0 +1,13 @@
+{
+      "types": "shoe park,shop",
+      "website": "http://google.com",
+      "address": "29, side layout, cohen 09",
+      "name": "Frontline house",
+      "accuracy": "50",
+      "location": {
+      "latitude": "-38.383494",
+      "longitude": "33.427362"
+      },
+      "phone_number": "(+91) 983 893 3937",
+      "language": "French-IN"
+      }
